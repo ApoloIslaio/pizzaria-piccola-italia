@@ -219,14 +219,14 @@ body.menu_expanded > :not(nav) {
 .menu,
 .close_menu,
 body.menu_expanded .open_menu {
-  opacity: 0;
-  visibility: hidden;
+  display: none;
 }
 
 body.menu_expanded .menu,
 body.menu_expanded .close_menu {
-  opacity: 1;
-  visibility: visible;
+  /* opacity: 1;
+  visibility: visible; */
+  display: block;
 }
 
 .menu {
