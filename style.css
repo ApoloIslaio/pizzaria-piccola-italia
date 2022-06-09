@@ -208,7 +208,7 @@ nav.scroll .logo h1 {
 /* ====== MENU EXPENDED ===================================================== */
 body.menu_expanded {
   overflow: hidden;
-  overflow-y: hidden;
+  overflow-y: auto;
 }
 
 body.menu_expanded > :not(nav) {
