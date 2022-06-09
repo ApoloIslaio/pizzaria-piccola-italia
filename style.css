@@ -163,6 +163,8 @@ nav {
   top: 0;
   width: 100vw;
 
+  padding-block: 1rem;
+
   z-index: 100;
 }
 nav .wrapper {
@@ -188,7 +190,7 @@ nav .close_menu {
   text-align: left;
   display: flex;
   flex-direction: column;
-  padding-block: 0.6rem;
+  padding-block: 1rem;
 }
 .logo .name_sector {
   font-family: 'DM Sans', sans-serif;
@@ -209,7 +211,7 @@ nav.scroll .logo h1 {
 /* ====== MENU EXPENDED ===================================================== */
 body.menu_expanded {
   overflow: hidden;
-  
+  overflow-y: hidden;
 }
 
 body.menu_expanded > :not(nav) {
