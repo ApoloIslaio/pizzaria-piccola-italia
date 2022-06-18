@@ -204,6 +204,9 @@ nav .close_menu {
   color: var(--primary-color);
 
 }
+.logo .name_company > span{
+  color: var(--palette-color1);
+}
 nav.scroll .logo h1 {
   color: white;
 }
@@ -526,12 +529,12 @@ footer .social_links {
     font-size: 2.4rem;
     
   }
-  nav#nav .wrapper .logo .name_sector {
+  /* nav#nav .wrapper .logo .name_sector {
     font-family: 'DM Sans', sans-serif;
     font-weight: 400;
     margin-bottom: -0.7rem;
     color: var(--brand-dark);
-  }
+  } */
   nav#nav .wrapper .logo .name_company,
   nav#nav .wrapper .logo .name_company span {
     color: var(--primary-color);
@@ -539,11 +542,16 @@ footer .social_links {
     font-family: 'Poppins', sans-serif;
   }
   nav#nav.scroll .wrapper .logo .name_sector,
-  nav#nav.scroll .wrapper .logo .name_company,
-  nav#nav.scroll .wrapper .logo .name_company span{
+  nav#nav.scroll .wrapper .logo .name_company{
     color: white;
   }
+  nav#nav .wrapper .logo .name_company span{
+    color: var(--palette-color1);
+  }
+  nav#nav.scroll .wrapper .logo .name_company span{
+    color: var(--palette-color1);
 
+  }
   /* ============= */
 
   nav#nav .close_menu,
