@@ -6,7 +6,8 @@
  No desenvolvimento foi utilizado o conceito mobile first. 
  Aprendi muita coisa nesse projeto como: <br>
     Variáveis css (isso ajuda muito na reutilização do código para outras ideias de projetos e na agilidade do desenvolvimento). <br><br>
-    Aprendi a organizar código com padrões (isso ajuda muito na manutenção futura do site e na limpeza das ideias),
+    Aprendi a organizar código com padrões (isso ajuda muito na manutenção futura do site e na limpeza das ideias).
+    <br><br>
     adicionar a biblioteca ScrollReveal para animar os elementos quando rolar a tela.<br><br>
     Responsividade (usar o a medida rem em vez de pixels, e utilizar padrões de tamanho e espaçamento flexíveis para mudar facilmente de acordo com os breakpoints).<br><br>
     
